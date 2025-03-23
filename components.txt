@@ -1,0 +1,21 @@
+1. Ultrasonic Sensors
+HC-SR04: A popular choice for obstacle detection. It uses sound waves to measure distances and works well for detecting objects up to 4 meters away.
+
+JSN-SR04T: A waterproof version of the HC-SR04, ideal for outdoor or wet environments.
+
+2. Infrared (IR) Sensors
+KY-032 Infrared Obstacle Avoidance Sensor: Detects obstacles using infrared light. It's compact, affordable, and provides a digital output.
+
+Sharp GP2Y0A21YK0F: Offers precise distance measurement with an analog output, suitable for medium-range detection.
+
+3. LIDAR Sensors
+TFmini LIDAR: A lightweight and compact sensor for accurate distance measurement. It’s great for advanced robotics projects.
+
+4. Time-of-Flight (ToF) Sensors
+VL53L0X: Measures distance using laser light. It’s compact and provides high accuracy for short-range detection.
+
+5. Camera-Based Sensors
+Depth Cameras: For advanced obstacle detection and mapping, you can use cameras like Intel RealSense or OpenCV-compatible modules.
+
+Each sensor has its strengths, so the choice depends on your project's requirements, such as range, accuracy, and environmental conditions. For a basic hexapod robot, starting with ultrasonic or IR sensors is a good idea. Let me know if you'd like help integrating any of these with your ESP32! 😊
+
